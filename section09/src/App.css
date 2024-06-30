@@ -1,0 +1,13 @@
+.App {
+  /* 가운데 설정 */
+  width: 500px;
+  margin: 0 auto;
+  
+  /* 자식 요소들이 좀 더 유연하게 배치되도록 */
+  display: flex;
+  /* 자식 요소들 세로로 배치 */
+  flex-direction: column;
+  /* 요소들 간격 설정 */
+  /* gap - display: flex 설정에서만 설정 가능 */
+  gap: 10px;
+}
