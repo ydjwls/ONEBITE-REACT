@@ -1,0 +1,43 @@
+/* Editor 전체 설정 */
+.Editor > section {
+    margin-bottom: 40px;
+}
+
+/* Editor 전체 h4 설정 */
+.Editor > section > h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* input, textarea 설정 */
+.Editor > section > input,
+textarea {
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+/* textarea 따로 설정 */
+.Editor > section > textarea {
+    padding: 20px;
+    width: 100%;
+    min-height: 200px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+/* emotion_section 설정 */
+.Editor .emotion_section .emotion_list_wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+}
+
+/* button_section 설정 */
+.Editor .button_section {
+    display: flex;
+    justify-content: space-between;
+}
+
