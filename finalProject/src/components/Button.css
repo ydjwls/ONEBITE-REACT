@@ -1,0 +1,23 @@
+/* 버튼 기본 설정 */
+.Button {
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    /* 줄바꿈 방지 */
+    white-space: nowrap;
+}
+
+/* type: POSITIVE */
+.Button_POSITIVE {
+    background-color: rgb(100, 201, 100);
+    color: white;
+}
+
+/* type: NEGATIVE */
+.Button_NEGATIVE {
+    background-color: rgb(253, 86, 95);
+    color: white;
+}
