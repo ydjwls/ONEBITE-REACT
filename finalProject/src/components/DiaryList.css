@@ -1,0 +1,22 @@
+/* menu_bar 설정 */
+.DiaryList .menu_bar {
+    margin: 20px 0px;
+    display: flex;
+    gap: 10px;
+}
+
+/* menu_bar 안 select 설정 */
+.DiaryList .menu_bar select {
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* menu_bar 안 button 설정 */
+.DiaryList .menu_bar button {
+    /* 꽉 채워서 */
+    flex: 1;
+}
