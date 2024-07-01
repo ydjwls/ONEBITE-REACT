@@ -14,20 +14,20 @@ import Notfound from './pages/Notfound';
 const mockData = [
   {
     id: 1,
-    createdData: new Date("2024-07-19").getTime(),
-    emtionId: 1,
+    createdDate: new Date("2024-06-04").getTime(),
+    emotionId: 1,
     content: "1번 일기 내용",
   },
   {
     id: 2,
-    createdData: new Date("2024-07-18").getTime(),
-    emtionId: 2,
+    createdDate: new Date("2024-06-18").getTime(),
+    emotionId: 2,
     content: "2번 일기 내용",
   },
   {
     id: 3,
-    createdData: new Date("2024-06-07").getTime(),
-    emtionId: 3,
+    createdDate: new Date("2024-05-07").getTime(),
+    emotionId: 3,
     content: "3번 일기 내용",
   },
 ];

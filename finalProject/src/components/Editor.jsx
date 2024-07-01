@@ -28,7 +28,7 @@ const emotionList = [
 ];
 
 const getStringedDate = (targetDate) => {
-    // 날짜 -> YYY-MM-DD
+    // 날짜 -> YYYY-MM-DD
     let year = targetDate.getFullYear();
     let month = targetDate.getMonth() + 1;
     let date = targetDate.getDate();
@@ -46,7 +46,7 @@ const getStringedDate = (targetDate) => {
 
 const Editor = ({ onSubmit }) => {
     const [input, setInput] = useState({
-        createdate: new Date(),
+        createdDate: new Date(),
         emotionId: 3,
         content: "",
     });
@@ -77,7 +77,7 @@ const Editor = ({ onSubmit }) => {
                 <input
                     name="createdDate"
                     onChange={onChangeInput} 
-                    value={getStringedDate(input.createdeDate)}
+                    value={getStringedDate(input.createdDate)}
                     type="date" 
                 />
             </section>
